@@ -1,0 +1,9 @@
+<header style="margin: 0 auto; width: 100%;">
+  <nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand">NGRX Store</a>
+    <form class="form-inline" *ngIf="name">
+        Welcome {{ name }}
+      <button class="btn btn-outline-success my-2 my-sm-0" (click)="logout()">Logout</button>
+    </form>
+  </nav>
+</header>
